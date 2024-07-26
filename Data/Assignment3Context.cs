@@ -15,5 +15,9 @@ namespace Assignment3.Data
         }
 
         public DbSet<Assignment3.model.User> User { get; set; } = default!;
+        public DbSet<Assignment3.model.product> product { get; set; } = default!;
+        public DbSet<Assignment3.model.Comment> Comment { get; set; } = default!;
+        public DbSet<Assignment3.model.order> order { get; set; } = default!;
+        public DbSet<Assignment3.model.cart> cart { get; set; } = default!;
     }
 }
